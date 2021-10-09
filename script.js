@@ -9,8 +9,9 @@ function getAccess () {
     if (checkAccess()) {
         access()
     } else {
-        var password = prompt('Enter the Password to access the encoder')
-        if (password == W3LC0M370TH3G4730FHEAVEN) { // Change this
+        var password = prompt('Enter the Password to read the word of Heavens')
+        var pass1="W3LC0M3T0TH3G4T350FHEAVEN";
+        if (password==pass1) { // Change this
             sessionStorage.setItem('access', true)
             access()
         } else {

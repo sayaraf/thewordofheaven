@@ -1,0 +1,187 @@
+
+    .title {
+        font-size: 18px !important;
+        color: rgb(255, 254, 254);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+    .container {
+        width: 80% !important;
+        height: 90% !important;
+        border-radius: 4px !important;
+        
+    }
+ 
+    .input,
+    .output {
+        width: 100% !important;
+        height: 39% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        font-size: 1.1rem !important;
+        color: rgb(255, 255, 255);
+    }
+
+    .input:focus,
+    .output:focus {
+        border: none !important;
+    }
+
+    .input textarea {
+        height: 95% !important;
+        font-size: 1.1rem !important;
+    }
+
+    .enter {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        font-size: 1.2rem !important;
+    }
+
+    .svg-icon {
+        margin-left: 0 !important;
+    }
+}
+
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+body {
+    background-image: url(Untitleddesign.png);     
+    background-size: cover;
+}
+
+.container {
+    background: rgba(226, 236, 245, 0.034);
+    width: 90%;
+    border-radius: 3%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 10px 20px rgba(8, 8, 8, 0);
+    text-align: center;
+  
+}
+
+.title {
+    margin-bottom: 7px;
+}
+
+.select-cont {
+    font-size: 1.8rem;
+    margin-top: 0px;
+}
+
+#select-option {
+    width: 300px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: rgba(8, 8, 8, 0.712);
+    color: rgb(233, 205, 205)
+    
+}
+
+.input {
+    margin-top: 15px;
+    width: 850px;
+    margin-left: 50px;
+    border-radius: 7px;
+color: aqua;
+}
+
+.input textarea {
+    width: 90%;
+    height: 180px;
+    font-size: 18pt;
+    border: none;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #faf8f800;
+    color: aqua;
+    text-shadow: black;
+    border: 2px solid rgb(111, 140, 219);
+    border-radius: 10px;
+
+}
+
+.input textarea:hover {
+}
+
+.break {
+    height: 70px;
+}
+
+
+.enter {
+    float: right;
+    margin-right: 20px;
+    font-size: 1.4rem;
+    padding: 3px 12.5px;
+    margin: 15px 60px 0 15px;
+    background: #00224e;
+    border: none;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+}
+
+.enter:hover {
+    padding: 3px 20px;
+    transition: ease-in-out .2s;
+}
+
+
+textarea.output {
+    font-size: 18pt;
+    border: none;
+    margin-bottom: 27px;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 10px;
+    
+    background-color: rgba(12, 12, 12, 0) ;
+    border: 2px solid rgb(113, 147, 241);
+
+}
+
+
+.svg-icon {
+    width: 3em;
+    height: 2em;
+    margin-top: 20px;
+    margin-left: 40px;
+    float: left;
+}
+
+.svg-icon path:hover,
+.svg-icon polygon:hover,
+.svg-icon rect:hover,
+.svg-icon circle:hover,
+.svg-icon:hover {
+    fill: #da0101;
+    transition: ease-in-out .2s;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: #4692f600;
+}
+
+.svg-icon circle {
+    stroke: #4692f600;
+    stroke-width: 1; 
+}
+
+.logo {
+    position: absolute;
+    color: rgba(255, 255, 255, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
